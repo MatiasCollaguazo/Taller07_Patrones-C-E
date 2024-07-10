@@ -15,7 +15,6 @@ public class NotificacionTelegramAdapter implements ServicioNotificacion {
         this.servicioTelegram = servicioTelegram;
     }
 
-    @Override
     public void enviarNotificacion(String mensaje, String destinatario) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
